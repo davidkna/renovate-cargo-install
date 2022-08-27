@@ -1,0 +1,6 @@
+on: [push]
+
+jobs:
+  cargo_install:
+    - name: Install cargo-llvm-cov
+      run: cargo install --version 0.4.7 cargo-llvm-cov
